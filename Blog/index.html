@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DUCHIEU - Developer Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css"></head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="logo">VĂN HUY</div>
+        <div class="social-icons">
+            <a href="#" title="Facebook">📘</a>
+            <a href="#" title="Twitter">🐦</a>
+        </div>
+    </div>
+
+    <!-- Carousel Container -->
+    <div class="carousel-container">
+        <div class="carousel">
+            <!-- Slide 1 -->
+            <div class="slide active">
+                <div class="slide-content">
+                    <h1>MÌNH LÀ <span class="developer">DEVELOPER</span></h1>
+                    <p>Chế Tạo Website Chất Lượng Cao</p>
+                    <div class="btn-group">
+                        <a href="#" class="btn primary">Hire Me</a>
+                        <a href="#" class="btn">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="slide">
+                <div class="slide-content">
+                    <h1>CREATIVE <span class="developer">SOLUTIONS</span></h1>
+                    <p>Thiết Kế Web Đẹp Và Hiện Đại</p>
+                    <div class="btn-group">
+                        <a href="#" class="btn primary">View Portfolio</a>
+                        <a href="#" class="btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="slide">
+                <div class="slide-content">
+                    <h1>PROFESSIONAL <span class="developer">CODER</span></h1>
+                    <p>Xây Dựng Ứng Dụng Web Chuyên Nghiệp</p>
+                    <div class="btn-group">
+                        <a href="#" class="btn primary">Get Started</a>
+                        <a href="#" class="btn">My Services</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation Arrows -->
+        <button class="nav-arrow prev" onclick="changeSlide(-1)">❮</button>
+        <button class="nav-arrow next" onclick="changeSlide(1)">❯</button>
+
+        <!-- Dots Navigation -->
+        <div class="dots-nav">
+            <span class="dot active" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+   
+</body>
+</html>
